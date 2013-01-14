@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/x86_64 3.7.1-pf Kernel Configuration
+# Linux/x86_64 3.7.2-pf Kernel Configuration
 #
 CONFIG_64BIT=y
 CONFIG_X86_64=y
@@ -864,8 +864,9 @@ CONFIG_DEVTMPFS_MOUNT=y
 CONFIG_STANDALONE=y
 CONFIG_PREVENT_FIRMWARE_BUILD=y
 CONFIG_FW_LOADER=y
-# CONFIG_FIRMWARE_IN_KERNEL is not set
-CONFIG_EXTRA_FIRMWARE=""
+CONFIG_FIRMWARE_IN_KERNEL=y
+CONFIG_EXTRA_FIRMWARE="amd-ucode/microcode_amd.bin"
+CONFIG_EXTRA_FIRMWARE_DIR="/lib/firmware"
 # CONFIG_SYS_HYPERVISOR is not set
 # CONFIG_GENERIC_CPU_DEVICES is not set
 # CONFIG_DMA_SHARED_BUFFER is not set
