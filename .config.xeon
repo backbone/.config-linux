@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/x86 3.8.6-hardened Kernel Configuration
+# Linux/x86 3.8.7-hardened Kernel Configuration
 #
 CONFIG_64BIT=y
 CONFIG_X86_64=y
@@ -2914,7 +2914,7 @@ CONFIG_VIRTUALIZATION=y
 CONFIG_KVM=m
 CONFIG_KVM_INTEL=m
 # CONFIG_KVM_AMD is not set
-# CONFIG_VHOST_NET is not set
+CONFIG_VHOST_NET=m
 # CONFIG_BINARY_PRINTF is not set
 
 #
