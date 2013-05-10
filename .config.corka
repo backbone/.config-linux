@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/x86 3.8.11-geek Kernel Configuration
+# Linux/x86 3.8.12-geek Kernel Configuration
 #
 CONFIG_64BIT=y
 CONFIG_X86_64=y
