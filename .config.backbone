@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/x86 3.10.2-hardened Kernel Configuration
+# Linux/x86 3.10.4-hardened-r2 Kernel Configuration
 #
 CONFIG_64BIT=y
 CONFIG_X86_64=y
@@ -1336,7 +1336,8 @@ CONFIG_FIX_EARLYCON_MEM=y
 # CONFIG_APPLICOM is not set
 # CONFIG_MWAVE is not set
 # CONFIG_RAW_DRIVER is not set
-# CONFIG_HPET is not set
+CONFIG_HPET=y
+CONFIG_HPET_MMAP=y
 # CONFIG_HANGCHECK_TIMER is not set
 # CONFIG_TCG_TPM is not set
 # CONFIG_TELCLOCK is not set
@@ -2533,7 +2534,6 @@ CONFIG_GRKERNSEC_FORKFAIL=y
 CONFIG_GRKERNSEC_TIME=y
 CONFIG_GRKERNSEC_PROC_IPADDR=y
 CONFIG_GRKERNSEC_RWXMAP_LOG=y
-# CONFIG_GRKERNSEC_AUDIT_TEXTREL is not set
 
 #
 # Executable Protections
