@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/x86 3.10.9-geek Kernel Configuration
+# Linux/x86 3.10.9-backbone Kernel Configuration
 #
 CONFIG_64BIT=y
 CONFIG_X86_64=y
@@ -426,7 +426,7 @@ CONFIG_X86_SMAP=y
 CONFIG_SECCOMP=y
 CONFIG_CC_STACKPROTECTOR=y
 CONFIG_HZ_100=y
-# CONFIG_HZ_250_NODEFAULT is not set
+# CONFIG_HZ_250 is not set
 # CONFIG_HZ_300 is not set
 # CONFIG_HZ_1000 is not set
 CONFIG_HZ=100
@@ -1884,7 +1884,6 @@ CONFIG_USB_GSPCA_PAC7302=m
 # Supported MMC/SDIO adapters
 #
 # CONFIG_CYPRESS_FIRMWARE is not set
-# CONFIG_SAA716X_SUPPORT is not set
 
 #
 # Media ancillary drivers (tuners, sensors, i2c, frontends)
@@ -2265,13 +2264,13 @@ CONFIG_HID_MONTEREY=y
 # CONFIG_HID_PETALYNX is not set
 # CONFIG_HID_PICOLCD is not set
 # CONFIG_HID_PRIMAX is not set
+# CONFIG_HID_PS3REMOTE is not set
 # CONFIG_HID_ROCCAT is not set
 # CONFIG_HID_SAITEK is not set
 # CONFIG_HID_SAMSUNG is not set
 # CONFIG_HID_SONY is not set
 # CONFIG_HID_SPEEDLINK is not set
 # CONFIG_HID_STEELSERIES is not set
-# CONFIG_HID_SPINELPLUS is not set
 # CONFIG_HID_SUNPLUS is not set
 # CONFIG_HID_GREENASIA is not set
 # CONFIG_HID_SMARTJOYPLUS is not set
