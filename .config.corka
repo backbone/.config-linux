@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/x86 3.10.9-backbone Kernel Configuration
+# Linux/x86 3.10.10-backbone Kernel Configuration
 #
 CONFIG_64BIT=y
 CONFIG_X86_64=y
@@ -348,8 +348,8 @@ CONFIG_IOMMU_HELPER=y
 CONFIG_NR_CPUS=4
 CONFIG_SCHED_SMT=y
 CONFIG_SCHED_MC=y
-# CONFIG_PREEMPT_NONE is not set
-CONFIG_PREEMPT_VOLUNTARY=y
+CONFIG_PREEMPT_NONE=y
+# CONFIG_PREEMPT_VOLUNTARY is not set
 # CONFIG_PREEMPT is not set
 CONFIG_X86_LOCAL_APIC=y
 CONFIG_X86_IO_APIC=y
