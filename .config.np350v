@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/x86 3.15.8-backbone Kernel Configuration
+# Linux/x86 3.15.9-backbone Kernel Configuration
 #
 CONFIG_64BIT=y
 CONFIG_X86_64=y
@@ -376,6 +376,8 @@ CONFIG_X86_MCE_INTEL=y
 CONFIG_X86_MCE_THRESHOLD=y
 # CONFIG_X86_MCE_INJECT is not set
 CONFIG_X86_THERMAL_VECTOR=y
+CONFIG_X86_16BIT=y
+CONFIG_X86_ESPFIX64=y
 # CONFIG_I8K is not set
 CONFIG_MICROCODE=m
 CONFIG_MICROCODE_INTEL=y
@@ -2831,7 +2833,59 @@ CONFIG_RTC_DRV_CMOS=y
 #
 # Microsoft Hyper-V guest support
 #
-# CONFIG_STAGING is not set
+CONFIG_STAGING=y
+# CONFIG_ET131X is not set
+# CONFIG_SLICOSS is not set
+# CONFIG_USBIP_CORE is not set
+# CONFIG_W35UND is not set
+# CONFIG_PRISM2_USB is not set
+# CONFIG_COMEDI is not set
+# CONFIG_RTL8192U is not set
+# CONFIG_RTLLIB is not set
+# CONFIG_R8712U is not set
+# CONFIG_R8188EU is not set
+# CONFIG_R8723AU is not set
+# CONFIG_R8821AE is not set
+CONFIG_RTS5139=m
+# CONFIG_RTS5139_DEBUG is not set
+# CONFIG_RTS5208 is not set
+# CONFIG_TRANZPORT is not set
+# CONFIG_IDE_PHISON is not set
+# CONFIG_LINE6_USB is not set
+# CONFIG_USB_SERIAL_QUATECH2 is not set
+# CONFIG_VT6655 is not set
+# CONFIG_VT6656 is not set
+# CONFIG_DX_SEP is not set
+# CONFIG_CRYSTALHD is not set
+# CONFIG_FB_XGI is not set
+# CONFIG_ACPI_QUICKSTART is not set
+# CONFIG_USB_ENESTORAGE is not set
+# CONFIG_BCM_WIMAX is not set
+# CONFIG_FT1000 is not set
+
+#
+# Speakup console speech
+#
+# CONFIG_SPEAKUP is not set
+# CONFIG_TOUCHSCREEN_SYNAPTICS_I2C_RMI4 is not set
+# CONFIG_STAGING_MEDIA is not set
+
+#
+# Android
+#
+# CONFIG_ANDROID is not set
+# CONFIG_USB_WPAN_HCD is not set
+# CONFIG_WIMAX_GDM72XX is not set
+# CONFIG_LTE_GDM724X is not set
+# CONFIG_NET_VENDOR_SILICOM is not set
+# CONFIG_CED1401 is not set
+# CONFIG_DGRP is not set
+# CONFIG_LUSTRE_FS is not set
+# CONFIG_XILLYBUS is not set
+# CONFIG_DGNC is not set
+# CONFIG_DGAP is not set
+# CONFIG_GS_FPGABOOT is not set
+# CONFIG_VHBA is not set
 CONFIG_X86_PLATFORM_DEVICES=y
 # CONFIG_ACER_WMI is not set
 # CONFIG_ACERHDF is not set
