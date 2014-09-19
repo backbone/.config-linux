@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/x86 3.16.2-backbone Kernel Configuration
+# Linux/x86 3.16.3-backbone Kernel Configuration
 #
 CONFIG_64BIT=y
 CONFIG_X86_64=y
@@ -604,8 +604,8 @@ CONFIG_PCIEPORTBUS=y
 # CONFIG_PCIEAER is not set
 CONFIG_PCIEASPM=y
 # CONFIG_PCIEASPM_DEBUG is not set
-CONFIG_PCIEASPM_DEFAULT=y
-# CONFIG_PCIEASPM_POWERSAVE is not set
+# CONFIG_PCIEASPM_DEFAULT is not set
+CONFIG_PCIEASPM_POWERSAVE=y
 # CONFIG_PCIEASPM_PERFORMANCE is not set
 CONFIG_PCIE_PME=y
 CONFIG_PCI_MSI=y
