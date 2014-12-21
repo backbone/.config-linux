@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/x86 3.17.2-hardened Kernel Configuration
+# Linux/x86 3.17.7-hardened Kernel Configuration
 #
 CONFIG_64BIT=y
 CONFIG_X86_64=y
@@ -664,7 +664,7 @@ CONFIG_NF_CONNTRACK_PROCFS=y
 # CONFIG_NF_CT_PROTO_SCTP is not set
 # CONFIG_NF_CT_PROTO_UDPLITE is not set
 # CONFIG_NF_CONNTRACK_AMANDA is not set
-# CONFIG_NF_CONNTRACK_FTP is not set
+CONFIG_NF_CONNTRACK_FTP=y
 # CONFIG_NF_CONNTRACK_H323 is not set
 # CONFIG_NF_CONNTRACK_IRC is not set
 # CONFIG_NF_CONNTRACK_NETBIOS_NS is not set
@@ -678,7 +678,7 @@ CONFIG_NF_CONNTRACK_PROCFS=y
 CONFIG_NF_NAT=y
 CONFIG_NF_NAT_NEEDED=y
 # CONFIG_NF_NAT_AMANDA is not set
-# CONFIG_NF_NAT_FTP is not set
+CONFIG_NF_NAT_FTP=y
 # CONFIG_NF_NAT_IRC is not set
 # CONFIG_NF_NAT_SIP is not set
 # CONFIG_NF_NAT_TFTP is not set
