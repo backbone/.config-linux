@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/x86 4.9.15-backbone Kernel Configuration
+# Linux/x86 4.9.20-backbone Kernel Configuration
 #
 CONFIG_64BIT=y
 CONFIG_X86_64=y
@@ -2756,7 +2756,8 @@ CONFIG_HID_GENERIC=y
 # CONFIG_HID_PRODIKEYS is not set
 # CONFIG_HID_CMEDIA is not set
 # CONFIG_HID_CYPRESS is not set
-# CONFIG_HID_DRAGONRISE is not set
+CONFIG_HID_DRAGONRISE=m
+CONFIG_DRAGONRISE_FF=y
 # CONFIG_HID_EMS_FF is not set
 # CONFIG_HID_ELECOM is not set
 # CONFIG_HID_ELO is not set
