@@ -1535,10 +1535,8 @@ CONFIG_R8169=m
 # CONFIG_FDDI is not set
 # CONFIG_HIPPI is not set
 # CONFIG_NET_SB1000 is not set
-CONFIG_MDIO_DEVICE=m
-CONFIG_MDIO_BUS=m
-# CONFIG_MDIO_BITBANG is not set
-# CONFIG_MDIO_THUNDER is not set
+# CONFIG_MDIO_DEVICE is not set
+# CONFIG_MDIO_BUS is not set
 # CONFIG_PHYLIB is not set
 # CONFIG_PPP is not set
 # CONFIG_SLIP is not set
