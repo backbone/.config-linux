@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/x86 4.14.15-backbone Kernel Configuration
+# Linux/x86 4.14.17-backbone Kernel Configuration
 #
 CONFIG_64BIT=y
 CONFIG_X86_64=y
@@ -3735,6 +3735,7 @@ CONFIG_CRYPTO_RNG2=y
 CONFIG_CRYPTO_RNG_DEFAULT=y
 CONFIG_CRYPTO_AKCIPHER2=y
 CONFIG_CRYPTO_KPP2=y
+CONFIG_CRYPTO_KPP=m
 CONFIG_CRYPTO_ACOMP2=y
 # CONFIG_CRYPTO_RSA is not set
 # CONFIG_CRYPTO_DH is not set
