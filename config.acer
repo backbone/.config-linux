@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/x86 5.8.7 Kernel Configuration
+# Linux/x86 5.8.8 Kernel Configuration
 #
 CONFIG_CC_VERSION_TEXT="gcc (Gentoo 9.3.0-r1 p3) 9.3.0"
 CONFIG_CC_IS_GCC=y
@@ -2658,7 +2658,7 @@ CONFIG_CEC_NOTIFIER=y
 # CONFIG_MEDIA_CEC_SUPPORT is not set
 CONFIG_MEDIA_SUPPORT=m
 # CONFIG_MEDIA_SUPPORT_FILTER is not set
-CONFIG_MEDIA_SUBDRV_AUTOSELECT=y
+# CONFIG_MEDIA_SUBDRV_AUTOSELECT is not set
 
 #
 # Media device types
