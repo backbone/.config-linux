@@ -1718,7 +1718,7 @@ CONFIG_PREVENT_FIRMWARE_BUILD=y
 #
 CONFIG_FW_LOADER=y
 CONFIG_FW_LOADER_PAGED_BUF=y
-CONFIG_EXTRA_FIRMWARE="amd-ucode/microcode_amd_fam19h.bin amd/amd_sev_fam19h_model0xh.sbin amdgpu/green_sardine_asd.bin amdgpu/green_sardine_ce.bin amdgpu/green_sardine_dmcub.bin amdgpu/green_sardine_me.bin amdgpu/green_sardine_mec.bin amdgpu/green_sardine_mec2.bin amdgpu/green_sardine_pfp.bin amdgpu/green_sardine_rlc.bin amdgpu/green_sardine_sdma.bin amdgpu/green_sardine_ta.bin amdgpu/green_sardine_vcn.bin"
+CONFIG_EXTRA_FIRMWARE="amd-ucode/microcode_amd_fam19h.bin amd/amd_sev_fam19h_model0xh.sbin amdgpu/psp_13_0_5_toc.bin amdgpu/psp_13_0_5_ta.bin amdgpu/dcn_3_1_5_dmcub.bin amdgpu/gc_10_3_6_pfp.bin amdgpu/gc_10_3_6_me.bin amdgpu/gc_10_3_6_ce.bin amdgpu/gc_10_3_6_rlc.bin amdgpu/gc_10_3_6_mec.bin amdgpu/gc_10_3_6_mec2.bin amdgpu/vcn_3_1_2.bin amdgpu/sdma_5_2_6.bin"
 CONFIG_EXTRA_FIRMWARE_DIR="/lib/firmware"
 # CONFIG_FW_LOADER_USER_HELPER is not set
 CONFIG_FW_LOADER_COMPRESS=y
